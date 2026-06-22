@@ -15,10 +15,13 @@ songs.json의 각 Song에 대해 title+artist로 Spotify 검색 → releaseDate 
 import argparse
 import json
 import os
+import sys
 import time
 from pathlib import Path
 import requests
 from dotenv import load_dotenv
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).parent.parent
 load_dotenv(ROOT / ".env")
