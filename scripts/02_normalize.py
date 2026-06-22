@@ -11,7 +11,10 @@
 
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).parent.parent
 RAW_FILE     = ROOT / "data" / "raw_entries.jsonl"

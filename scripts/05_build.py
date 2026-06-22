@@ -8,7 +8,10 @@
 """
 
 import json
+import sys
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT         = Path(__file__).parent.parent
 TAGGED_FILE  = ROOT / "data" / "songs_tagged.json"

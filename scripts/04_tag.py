@@ -13,7 +13,10 @@ known_girl_groups.txt를 최우선으로 정확히 관리할 것.
 """
 
 import json
+import sys
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).parent.parent
 SCRIPTS_DIR   = Path(__file__).parent
