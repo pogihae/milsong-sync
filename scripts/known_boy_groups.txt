@@ -1,0 +1,97 @@
+# 알려진 보이그룹 아티스트명 목록 (소문자, 부분 일치)
+# v1 스코어링에는 직접 영향 없음 — 향후 확장을 위해 채워둠
+
+# ── 4세대 ─────────────────────────────────────────────────────────────────
+stray kids
+스트레이키즈
+tomorrow x together
+txt
+투모로우바이투게더
+enhypen
+엔하이픈
+ateez
+에이티즈
+nct dream
+nct 127
+nct wish
+wayv
+seventeen
+세븐틴
+treasure
+트레저
+the boyz
+더보이즈
+oneus
+원어스
+onewe
+pentagon
+펜타곤
+cravity
+크래비티
+verivery
+베리베리
+drippin
+드리핀
+btob
+비투비
+monsta x
+몬스타엑스
+victon
+빅톤
+ab6ix
+에이비식스
+sf9
+에스에프나인
+astro
+아스트로
+cix
+씨아이엑스
+ghost9
+ghost 9
+
+# ── 3세대 ─────────────────────────────────────────────────────────────────
+bts
+방탄소년단
+exo
+엑소
+got7
+갓세븐
+infinite
+인피니트
+b1a4
+빅스
+vixx
+nu'est
+뉴이스트
+block b
+블락비
+beast
+비스트
+highlight
+하이라이트
+shinee
+샤이니
+2pm
+2am
+super junior
+슈퍼주니어
+f(x)
+shinee
+
+# ── 2세대 ─────────────────────────────────────────────────────────────────
+big bang
+빅뱅
+tvxq
+동방신기
+sj
+super junior
+2pm
+2am
+ss501
+cnblue
+씨엔블루
+ft island
+에프티아일랜드
+beast
+비스트
+b2st

@@ -1,0 +1,135 @@
+# 알려진 걸그룹 아티스트명 목록 (소문자, 부분 일치)
+# 04_tag.py가 artist 필드에 이 문자열이 포함되면 girl_group으로 태깅
+# 추가/수정 후 04_tag.py 재실행
+
+# ── 4세대 ─────────────────────────────────────────────────────────────────
+aespa
+에스파
+le sserafim
+르세라핌
+newjeans
+뉴진스
+ive
+아이브
+nmixx
+케플러
+kep1er
+illit
+일리트
+tripleS
+트리플에스
+meovv
+melon
+fifty fifty
+피프티피프티
+young posse
+영파씨
+kiss of life
+babymonster
+베이비몬스터
+mamamoo+
+soloists from mamamoo
+
+# ── 3세대 ─────────────────────────────────────────────────────────────────
+twice
+트와이스
+blackpink
+블랙핑크
+red velvet
+레드벨벳
+mamamoo
+마마무
+(g)i-dle
+여자아이들
+itzy
+있지
+aoa
+에이오에이
+gfriend
+여자친구
+loona
+이달의소녀
+wjsn
+우주소녀
+cosmic girls
+fromis_9
+프로미스나인
+momoland
+모모랜드
+clc
+라붐
+laboum
+dreamcatcher
+드림캐쳐
+nature
+네이처
+everglow
+에버글로우
+bvndit
+bizzie
+cignature
+시그니처
+purple kiss
+퍼플키스
+
+# ── 2세대 ─────────────────────────────────────────────────────────────────
+snsd
+소녀시대
+girls generation
+2ne1
+투애니원
+wonder girls
+원더걸스
+miss a
+miss a
+4minute
+포미닛
+kara
+카라
+sistar
+씨스타
+apink
+에이핑크
+t-ara
+티아라
+secret
+씨크릿
+rainbow
+레인보우
+after school
+애프터스쿨
+nine muses
+나인뮤지스
+dal shabet
+달샤벳
+exid
+이엑스아이디
+fiestar
+피에스타
+girl's day
+걸스데이
+hello venus
+헬로비너스
+stellar
+스텔라
+crayon pop
+크레용팝
+a pink
+에이핑크
+orange caramel
+오렌지캬라멜
+bestie
+베스티
+spica
+스피카
+
+# ── 1세대 ─────────────────────────────────────────────────────────────────
+s.e.s
+핑클
+finkl
+baby v.o.x
+베이비복스
+sugar
+수가
+천상지희
+# (범위 2010~이므로 1세대는 거의 안 나옴)
