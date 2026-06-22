@@ -1,7 +1,9 @@
-data/cache/
+data/*
+!data/.gitkeep
+output/*
+!output/.gitkeep
 .env
 __pycache__/
 *.pyc
-*.egg-info/
 .venv/
 venv/

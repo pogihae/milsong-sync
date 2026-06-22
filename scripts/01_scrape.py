@@ -143,12 +143,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--test",  action="store_true", help="1주차만 출력")
     parser.add_argument("--year",  type=int, help="특정 연도만 수집")
+    parser.add_argument("--month", type=int, help="특정 월만 수집 (--year와 함께)")
     parser.add_argument("--debug", action="store_true", help="raw JSON 출력")
     args = parser.parse_args()
 
     weeks = list(iter_chart_weeks(START_YEAR, END_DATE))
     if args.year:
         weeks = [(y, w, ws) for y, w, ws in weeks if y == args.year]
+    if args.month:
+        weeks = [(y, w, ws) for y, w, ws in weeks if ws.month == args.month]
     if args.test:
         weeks = weeks[:1]
 
