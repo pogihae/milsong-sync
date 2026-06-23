@@ -43,7 +43,8 @@ CREATE TABLE songs (
     title        TEXT NOT NULL,
     artist       TEXT NOT NULL,
     artist_type  TEXT NOT NULL,
-    release_date TEXT
+    release_date TEXT,
+    cover_url    TEXT
 );
 
 CREATE TABLE chart_entries (
@@ -84,8 +85,8 @@ def main():
 
     print(f"songs INSERT: {len(songs)}건...")
     execute_values(cur,
-        "INSERT INTO songs (id, title, artist, artist_type, release_date) VALUES %s",
-        [(s["id"], s["title"], s["artist"], s["artistType"], s.get("releaseDate")) for s in songs],
+        "INSERT INTO songs (id, title, artist, artist_type, release_date, cover_url) VALUES %s",
+        [(s["id"], s["title"], s["artist"], s["artistType"], s.get("releaseDate"), s.get("cover_url")) for s in songs],
         page_size=500,
     )
 
