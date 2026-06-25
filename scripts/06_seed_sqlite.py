@@ -24,7 +24,8 @@ CREATE TABLE IF NOT EXISTS songs (
     title        TEXT NOT NULL,
     artist       TEXT NOT NULL,
     artist_type  TEXT NOT NULL,
-    release_date TEXT
+    release_date TEXT,
+    cover_url    TEXT
 );
 
 CREATE TABLE IF NOT EXISTS chart_entries (
@@ -61,8 +62,8 @@ def main():
     # songs
     songs = list(data["songs"].values())
     con.executemany(
-        "INSERT INTO songs VALUES (?, ?, ?, ?, ?)",
-        [(s["id"], s["title"], s["artist"], s["artistType"], s.get("releaseDate")) for s in songs],
+        "INSERT INTO songs VALUES (?, ?, ?, ?, ?, ?)",
+        [(s["id"], s["title"], s["artist"], s["artistType"], s.get("releaseDate"), s.get("cover_url")) for s in songs],
     )
     print(f"songs INSERT: {len(songs)}건")
 
